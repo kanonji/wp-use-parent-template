@@ -1,6 +1,6 @@
 === WP Use parent template ===
 Contributors: kanonji
-Tags: template, page, category
+Tags: template, hierarchy, page, category
 Requires at least: 3.2
 Tested up to: 3.2.1
 Stable tag: 0.2
