@@ -57,11 +57,11 @@ function page_patch(){
         $templates[] = $template;
     if ( $pagename )
         $templates[] = "page-$pagename.php";
+    $templates[] = "page-$id.php";
     if($parent)
         $templates[] = "page-$parent.php";
     if($parentId)
         $templates[] = "page-$parentId.php";
-    $templates[] = "page-$id.php";
     $templates[] = "page.php";
     $templates[] = "index.php";
     $template = locate_template($templates);
