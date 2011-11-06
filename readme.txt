@@ -3,7 +3,7 @@ Contributors: kanonji
 Tags: template, hierarchy, page, category
 Requires at least: 3.2
 Tested up to: 3.2.1
-Stable tag: 0.2
+Stable tag: 0.3
 
 To use parent template for child categories or pages. This plugin patches template hierarchy.
 
@@ -16,9 +16,9 @@ To use parent template for child categories or pages. This plugin patches templa
 
 If you have works category with some child categories as followings, you may want to use 'category-works.php' for all three child categories. You need to copy as 'category-design.php' and the rest in default template hierarchy. WP Use parent template patches the template hierarchy to use parent template for these child categories. And also pages too.
 
-example.com/works/design
-example.com/works/illust
-example.com/works/photo
+* example.com/works/design
+* example.com/works/illust
+* example.com/works/photo
 
 = Category template hierarchy =
 
@@ -45,11 +45,15 @@ http://codex.wordpress.org/Template_Hierarchy
 
 = Notes =
 
-* Able to use only one generation age template. category-child.php is able to use as parent template for grandchild in the following example.
-
-example.com/parent/child/grandchild
+* Able to use only one generation age template. 'category-child.php' is able to use as parent template for grandchild in the example of 'example.com/parent/child/grandchild'.
 
 == Changelog ==
 
+= 0.3 =
+* Fix readme.txt
+
 = 0.2 =
 * Released.
+
+= 0.1 =
+* My local use.
