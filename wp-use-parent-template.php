@@ -2,7 +2,7 @@
 /*
 * Plugin Name: WP Use parent template
 * Plugin URI:https://github.com/kanonji/wp-use-parent-template
-* Version: 0.2
+* Version: 0.4
 * Description: To use parent template for child categories or pages. This plugin patches template hierarchy.
 * Author: kanonji
 * Author URI: http://twitter.com/kanonji
@@ -12,7 +12,7 @@
 * http://www.opensource.org/licenses/mit-license.php
 */
 
-define('WP-USE-PARENT-TEMPLATE_VERSION', '0.2');
+define('WP-USE-PARENT-TEMPLATE_VERSION', '0.4');
 
 add_action('template_redirect', 'category_patch');
 add_action('template_redirect', 'page_patch');

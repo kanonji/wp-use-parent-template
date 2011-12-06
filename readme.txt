@@ -3,7 +3,7 @@ Contributors: kanonji
 Tags: template, hierarchy, page, category
 Requires at least: 3.2
 Tested up to: 3.2.1
-Stable tag: 0.3
+Stable tag: 0.4
 
 To use parent template for child categories or pages. This plugin patches template hierarchy. This plugin is for who create or customize themes.
 
@@ -49,6 +49,9 @@ http://codex.wordpress.org/Template_Hierarchy
 * You may need to change parent template to handle child data.
 
 == Changelog ==
+
+= 0.4 =
+* Fix readme.txt
 
 = 0.3 =
 * Fix readme.txt
